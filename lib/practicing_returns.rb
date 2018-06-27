@@ -39,8 +39,9 @@ hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 
 # Inside the Pry console in your terminal, manually invoke the method by copying and pasting the following and hitting `enter`:
 
-ruby
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+# ```
+# ruby
+# hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 # ```
 
 # You should see the following:
