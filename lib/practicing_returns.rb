@@ -43,9 +43,9 @@ hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 
 # Now, run the file with `ruby lib/practicing_returns.rb`. You should be dropped right into your binding. Let's manually execute our `yield` so that we can see the return value. In the Pry console in your terminal:
 
-ruby
- yield(array[i])
- ```
+# ```ruby
+# yield(array[i])
+# ```
 
 # This returns:
 
